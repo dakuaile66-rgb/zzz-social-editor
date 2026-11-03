@@ -29,7 +29,17 @@
 - `analytics/`：成效欄位與判讀規則
 - `tools/`：WhisperX、pyannote、PySceneDetect、Auto-Editor、Remotion、n8n
 - `prompts/`：AI 視覺／影片提示詞規則
-- `sources/`：社群來源、GitHub ZZZ 工具／資料索引
+- `sources/`：社群來源、GitHub ZZZ 工具／資料索引及外部專案採用紀錄
+- `governance/`：AI 規則衝突與版本治理
+
+## 新增的外部工作方法
+- [AI 指令治理](governance/rule-audit.md)：規則盤點、矛盾檢查與可追溯修改
+- [二創企劃與提示詞手冊](prompts/creative-prompt-playbook.md)：玩家梗、分鏡與跨模型輸出
+- [AI 工具交接](workflow/ai-tool-management.md)：模型、素材、Prompt、剪輯版本交接
+- [搜尋與作品集整理](workflow/discovery-and-seo.md)：選用的作品索引／未來網站規劃
+- [外部 GitHub 專案評估](sources/mars-tw-project-review.md)：六個專案採用與排除理由
+
+上述為方法整合，未安裝外部工具，也未進行全檔案規則審計。
 
 ## 最高優先規則
 如果新規則與舊規則衝突，以「使用者最新明確回饋」為準。
