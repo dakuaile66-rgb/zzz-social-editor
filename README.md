@@ -29,6 +29,7 @@
 - `analytics/`：成效欄位與判讀規則
 - `tools/`：WhisperX、pyannote、PySceneDetect、Auto-Editor、Remotion、n8n
 - `prompts/`：AI 視覺／影片提示詞規則
+- `sources/`：社群來源、GitHub ZZZ 工具／資料索引
 
 ## 最高優先規則
 如果新規則與舊規則衝突，以「使用者最新明確回饋」為準。
